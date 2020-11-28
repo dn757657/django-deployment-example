@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>WELCOME TO RELATIVE URL TEMPLATES</h1>
+    <!-- a:b, a is app_name variable, b is view name in name= attribute -->
+    <!-- be careful of spaces! -->
+    <a href="{% url 'basic_app:other' %}">THE OTHER PATH</a>
+    <a href="{% url 'admin:index' %}">ADMIN BB</a>
+    <a href="{% url 'index' %}">LINK TO INDEX</a>
+
+  </body>
+</html>
